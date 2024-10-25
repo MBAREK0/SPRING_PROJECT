@@ -18,7 +18,7 @@ such as creating, viewing, updating, and deleting users through a web interface.
 - [Installation and Setup](#installation-and-setup)
 
 ### Overview of Spring Framework
-Spring is a powerful framework for building Java applications, especially web apps. It simplifies development by providing tools like dependency injection, aspect-oriented programming (AOP), and a flexible architecture, making it easier to manage code and improve efficiency.
+  Spring is a powerful framework for building Java applications, especially web apps. It simplifies development by providing tools like dependency injection, aspect-     oriented programming (AOP), and a flexible architecture, making it easier to manage code and improve efficiency.
 ### Project Structure
 ```sh
 .
@@ -49,8 +49,16 @@ Spring is a powerful framework for building Java applications, especially web ap
 ```
 
 ### Dependency Injection (DI)
+- In traditional programming, objects often create their own dependencies, leading to:
+  - Code that’s harder to maintain and test
+  - 
+- Dependency Injection (DI) solves this by:
+  - Allowing Spring to provide objects with their dependencies
+  - Defining dependencies once in a configuration file or with annotations
+  - Promoting loose coupling and easier testing, making the code more flexible and maintainable
 
 ### Inversion of Control (IoC)
+
 
 ### Spring Beans
 
