@@ -18,6 +18,7 @@ such as creating, viewing, updating, and deleting users through a web interface.
 - [Installation and Setup](#installation-and-setup)
 
 ### Project Structure
+```sh
 .
 ├── src/
 │   ├── main/
@@ -43,6 +44,7 @@ such as creating, viewing, updating, and deleting users through a web interface.
 │   │   │       └── web.xml
 ├── pom.xml
 └── README.md
+```
 
 ### Dependency Injection (DI)
 
