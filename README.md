@@ -75,6 +75,7 @@ Spring Beans are the objects managed by the Spring IoC container. They are creat
 Bean scopes define the lifecycle and visibility of Spring Beans within the application context. The main scopes include singleton, prototype, request, session, and application, each serving different use cases for object management.
 
 ### ApplicationContext
+the ApplicationContext is a central interface that provides a comprehensive view of the application's configuration and components. It acts as the heart of the Spring IoC (Inversion of Control) container, managing the lifecycle of beans, injecting dependencies, and providing various services to the application.
 
 ### Component Scanning and Stereotype Annotations
 
