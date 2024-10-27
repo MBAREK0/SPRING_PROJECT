@@ -92,10 +92,10 @@ Component scanning is a feature that allows Spring to automatically discover and
 
 Stereotype annotations are used to mark classes as specific types of components, providing additional metadata to the Spring container. The most common stereotype annotations are:
 
--@Component: A generic stereotype annotation for any Spring-managed component.
--@Service: A specialization of @Component for business logic components.
--@Repository: A specialization of @Component for data access objects (DAOs).
--@Controller: A specialization of @Component for web controllers.
+- @Component: A generic stereotype annotation for any Spring-managed component.
+- @Service: A specialization of @Component for business logic components.
+- @Repository: A specialization of @Component for data access objects (DAOs).
+- @Controller: A specialization of @Component for web controllers.
 
 ### Spring Data JPA
 
