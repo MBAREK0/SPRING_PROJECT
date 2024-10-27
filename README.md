@@ -78,6 +78,24 @@ Bean scopes define the lifecycle and visibility of Spring Beans within the appli
 the ApplicationContext is a central interface that provides a comprehensive view of the application's configuration and components. It acts as the heart of the Spring IoC (Inversion of Control) container, managing the lifecycle of beans, injecting dependencies, and providing various services to the application.
 
 ### Component Scanning and Stereotype Annotations
+- Component Scanning
+
+Component scanning is a feature that allows Spring to automatically discover and register beans within a specified package or set of packages. This eliminates the need for explicit bean definitions in XML configuration files.
+
+- How it Works:
+
+==>Configuration: You configure component scanning using the @ComponentScan annotation in Java configuration or the <context:component-scan> element in XML configuration.
+==>Classpath Scanning: Spring scans the specified packages for classes annotated with specific stereotype annotations.
+==>Bean Registration: For each class found, Spring creates a bean definition and registers it in the application context.
+
+- Stereotype Annotations
+
+Stereotype annotations are used to mark classes as specific types of components, providing additional metadata to the Spring container. The most common stereotype annotations are:
+
+@Component: A generic stereotype annotation for any Spring-managed component.
+@Service: A specialization of @Component for business logic components.
+@Repository: A specialization of @Component for data access objects (DAOs).
+@Controller: A specialization of @Component for web controllers.
 
 ### Spring Data JPA
 
